@@ -1,4 +1,4 @@
-# Generate random numbers based on fliping a coin Challenge. - JavaScript
+# Generate random numbers based on fliping a coin - JavaScript Challenge
 
 This code challenge allows you to generate a random number from a function that simulate a flipping coin.
 
