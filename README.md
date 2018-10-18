@@ -2,11 +2,11 @@
 
 This code challenge allows you to generate a random number from a function that simulate a flipping coin.
 
-`
+```
 function flip() {
     return Math.random() >= 0.5;
 }
-'
+```
 
 Base Requirements:
 - A clean modern look
