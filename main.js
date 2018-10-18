@@ -12,9 +12,9 @@ function randomNumber(n) {
     var base10 = parseInt(n, 10)
     var randomNumber = 0;
 
-    if (base10 < 0 || base10 > 999999)
+    if (base10 < 1 || base10 > 999999)
     {
-        alert(`Value must be between 0 and 999999, invalid number: [${base10}]`)
+        alert(`Value must be between 1 and 999999, invalid number: [${base10}]`)
         return
     }
 
