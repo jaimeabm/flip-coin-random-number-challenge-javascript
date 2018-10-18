@@ -15,7 +15,7 @@ function randomNumber(n) {
     if (base10 < 1 || base10 > 999999)
     {
         alert(`Value must be between 1 and 999999, invalid number: [${base10}]`)
-        return
+        return;
     }
 
     do {
