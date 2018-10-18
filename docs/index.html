@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="es-MX">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Flip the coin Challenge - JavaScript
+    </title>
+    <meta name="description" content="This code challenge allows you to generate random numbers based on fliping a coin.">
+    <meta name="keywords" content="Coin Flip, You must implement a randomNumber(n) function that generates a random number greater than or equal to 0, and less than inputn.">
+    <meta name="google" value="notranslate">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <style>
+        .todo-footer {
+            background-color: #F4FCE8;
+            margin: 0 -20px -10px -20px;
+            padding: 10px 20px;
+        }
+
+        .list-group{
+            width: 100%;
+            height: 200px;
+            margin: 5px 5px 5px 5px;
+            padding: 5px 3px 5px 3px;
+            max-height: 200px;
+            margin-bottom: 10px;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            display: inline-block;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    	    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="">
+                 <h1>Random Number from flipping a coin - JavaScript Challenge</h1>
+                    <label for="maxNumber">Provide max number allowed (must be less than 1,000,000)</label>
+                    <input type="number" min="0" max="999999" class="form-control" placeholder="Only numbers" id="maxNumber">
+                    <button id="checkAll" class="btn btn-success" onclick="randomNumber(getElementById('maxNumber').value)">Generate random Number</button>
+                        
+                        <hr>
+                        <ul id="randomNumberList" class="list-group"></ul>
+                    <div class="todo-footer text-center">
+                        <strong><span class="count-todos" id="counter">0</span></strong> Items Left
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section Starts -->
+    <section class="footer-top">
+        <div class="container">
+            <h3 class="text-center text-bold">Designed by Jaime Banda</h3>
+            <ul class="list-unstyled list-inline text-center">
+                <li><i class="fa fa-check-circle"></i> <a href="https://github.com/jaimeabm">GitHub</a></li>
+                <li><i class="fa fa-check-circle"></i> <a href="https://www.linkedin.com/in/jaime-banda/">Linkedin</a></li>
+            </ul>
+        </div> 
+    </section>
+    <!-- Footer Area Starts -->
+    <footer class="bs-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <!-- Copyright Starts -->
+                <div class="text-center">
+                    <p class="copyright">
+                        Copyright © <date>. Jaime A Banda.
+                    </p>
+                </div>
+            </div>
+        </div>
+      
+      </footer>
+<!--Custom scripts-->
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
