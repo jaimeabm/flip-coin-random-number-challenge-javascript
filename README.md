@@ -21,6 +21,6 @@ Base Requirements:
 - Your only source of randomness must be the provided `flip()` function.
 - You cannot use `Math.random` in your implementation.
 - You can use Google to figure out how to do this.
-- Service hosted on [https://jaimeabm.github.io/react-challenge-countdown-timer/](https://jaimeabm.github.io/react-challenge-countdown-timer/) (.github.io address)
+- Service hosted on [https://jaimeabm.github.io/flip-coin-random-number-challenge-javascript/](https://jaimeabm.github.io/flip-coin-random-number-challenge-javascript/) (.github.io address)
 
 To run the project in your machine, just download it and open the index.html file in a browser.
